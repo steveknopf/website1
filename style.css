@@ -260,12 +260,12 @@ nav {
     position: absolute;
     top: 50%;
     left: 90px;
-    transform: translate(100%);
+    transform: translateY(100%);
     color: white;
     max-width: 550px;
     z-index: 3;
     opacity: 0;
-    transition: transform 450ms opacity 300ms;
+    transition: opacity 300ms, transform 450ms ease;
 }
 
 .project__description--title {
